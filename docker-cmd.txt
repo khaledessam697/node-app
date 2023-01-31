@@ -1,0 +1,7 @@
+docker build -t 
+docker image ls
+docker run  [image-name]
+docker ps =>view all running containers
+docker stop [container-name]
+docker rm [container-name] -f
+docker exec -it express-node-app-container bash
